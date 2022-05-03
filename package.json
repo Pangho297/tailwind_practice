@@ -2,6 +2,7 @@
   "name": "tailwind_practice",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://pangho297.github.io/tailwind_practice",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
