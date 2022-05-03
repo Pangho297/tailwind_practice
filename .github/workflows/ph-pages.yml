@@ -27,7 +27,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PANGHO_TOKEN }}
           BRANCH: gh-pages # 배포될 브랜치
           FOLDER: out # 이 폴더에 있는 파일을 배포
           CLEAN: true # 배포 브랜치에 있는 파일들을 자동으로 삭제
